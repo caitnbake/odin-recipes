@@ -1,1 +1,1 @@
-# odin-recipes
+This is a basic recipe website for The Odin Project. The skills involved include basic HTML elements, linking to other HTML files, adding images, creating lists, and formatting text. 
