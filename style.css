@@ -2,17 +2,30 @@ body {
     background-color: rgb(34, 32, 32);
     color: white;
     padding: 5px 25px;
+    padding-bottom: 30px;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
     font-size: 80px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 15px;
     text-align: center;
 }
 
+h2 {
+    font-size: 35px;
+    background-color: white;
+    color: #222020;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
 img {
     width: 100%;
+    max-width: 400px;
     border-radius: 15px;
 }
 
@@ -28,8 +41,18 @@ img {
         grid-template-columns: 1fr;
     }
 
+    .title-section {
+        display: grid;
+        grid-template-columns: 8fr, 1fr;
+    }
+
     h1 {
-        font-size: 50px;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 28px;
     }
 }
 
@@ -43,8 +66,15 @@ img {
     justify-content: center;
 }
 
+.title-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
 a {
-    color: rgb(34, 32, 32);
+    color: #222020;
     font-size: 20px;
     background-color: white;
     text-decoration: none;
