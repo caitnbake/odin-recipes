@@ -15,6 +15,10 @@ h1 {
     text-align: center;
 }
 
+.left-align {
+    text-align: left;
+}
+
 h2 {
     font-size: 35px;
     background-color: white;
@@ -42,17 +46,19 @@ img {
     }
 
     .title-section {
-        display: grid;
-        grid-template-columns: 8fr, 1fr;
+        display: flex;
     }
 
     h1 {
         font-size: 40px;
-        text-align: left;
     }
 
     h2 {
         font-size: 28px;
+    }
+
+    .title-section img {
+        width: 50%;
     }
 }
 
@@ -67,8 +73,8 @@ img {
 }
 
 .title-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    width: 85%;
     gap: 20px;
     align-items: center;
 }
